@@ -1,4 +1,4 @@
-class git-wt < Formula
+class Gitwt < Formula
     desc "Git Extension For Worktree Management"
     homepage "https://github.com/jason-dour/git-wt"
     version "1.0.1"
