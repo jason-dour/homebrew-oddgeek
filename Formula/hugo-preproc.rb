@@ -25,6 +25,7 @@ class HugoPreproc < Formula
     end
 
     def install
+        ohai "url: #{url}"
         ohai "bin: #{bin}"
         bins = Dir.glob "#{bin}/**"
         ohai "bins: #{bins}"
