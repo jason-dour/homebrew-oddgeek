@@ -25,12 +25,6 @@ class HugoPreproc < Formula
     end
 
     def install
-        ohai "url: #{self.class.url}"
-        # ohai "bin: #{bin}"
-        # bins = Dir.glob "#{bin}/**"
-        # ohai "bins: #{bins}"
-        # binfile = File.basename(bins.first)
-        # ohai "binfile: #{binfile}"
         ohai "installing #{self.class.url.split('/').last} to #{bin}/hugo-preproc"
         bin.install self.class.url.split('/').last => "hugo-preproc"
     end
